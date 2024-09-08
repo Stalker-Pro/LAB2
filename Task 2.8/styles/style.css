@@ -1,0 +1,31 @@
+
+.rectangles{
+  padding-top: 10px;
+  padding-left: 10px;
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 1fr;
+}
+
+.two-rectg{
+  grid-template-rows: 1fr;
+}
+
+.stat-rectg{
+  background-color: #ffe4c4;
+  width: 200px;
+
+  
+}
+
+.relat-rectg{
+  background-color: #08fcfc;
+  width: 200px;
+}
+
+.right-text{
+  display: flex;
+  background-color: rgb(197, 197, 197);
+}
+
