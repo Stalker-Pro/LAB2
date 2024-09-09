@@ -4,28 +4,39 @@
   padding-left: 10px;
   display: grid;
   height: 100%;
+  width: 100%;
   grid-template-columns: 1fr 5fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .two-rectg{
-  grid-template-rows: 1fr;
+  min-width: 150px;
 }
 
-.stat-rectg{
-  background-color: #ffe4c4;
-  width: 200px;
-
-  
+.f-rectg{
+  padding-left: 10px;
+  background-color:bisque;
+  height: 100%;
 }
 
-.relat-rectg{
-  background-color: #08fcfc;
-  width: 200px;
+.s-rectg{
+  background-color: aqua;
+  min-height: 100px;
 }
 
-.right-text{
-  display: flex;
-  background-color: rgb(197, 197, 197);
+.text{
+  grid-area: 1 / 2 / 3 /3;
+  background-color: grey;
 }
 
+.green-line{
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  background-color: #32cd32;
+  bottom: 0;
+}
+
+ul{
+  list-style-type:  none;
+}
